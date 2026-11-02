@@ -1,5 +1,7 @@
 # Nothing Profile
 
+[Открыть редактор](https://whoisfazenda.github.io/nothing-profile/) · [Исходный код](https://github.com/whoisfazenda/nothing-profile)
+
 Генератор GitHub README в стиле Nothing OS. Основан на [Expressive Profile](https://github.com/metawka/expressive-profile) (MIT, metawka), с новым оформлением редактора и SVG-карточек.
 
 ## Запуск
