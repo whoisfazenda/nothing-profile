@@ -1,0 +1,24 @@
+@font-face{font-family:Matrix;src:url('/MatrixSans.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Editorial;src:url('/Oranienbaum.ttf') format('truetype');font-display:swap}
+:root{--font:G,'Courier New',monospace;--r-xl:19px;--r-lg:19px;--r-md:12px}
+body{font-size:13px;font-variation-settings:normal}
+.backdrop{background-image:radial-gradient(var(--outline-variant) .7px,transparent .7px);background-size:18px 18px;opacity:.3}
+.bd{display:none}
+.topbar{background:var(--surface);backdrop-filter:none;border-bottom:1px solid var(--outline-variant)}
+.logo-text{font:400 19px Matrix,monospace;letter-spacing:1px}
+.nothing-mark{display:block;width:27px;height:27px;border:5px dotted currentColor;border-radius:50%}
+.sheet h2,.dialog h2,.land-card h1{font-family:Matrix,monospace;font-weight:400;letter-spacing:1px}
+.sheet,.dialog,.land-card{border:1px solid var(--outline-variant);box-shadow:none;border-radius:19px}
+.sheet.side{border-radius:19px 0 0 19px}
+.banner{border-radius:12px;background:var(--surface-container);border:1px solid var(--outline-variant)}
+.stage-inner{padding-top:28px}
+.btn,.filter-chip,.segmented{box-shadow:none}
+.field input[type=range]{width:100%;accent-color:var(--primary);min-height:36px;padding:0}
+.swatch{border:1px solid var(--outline)}
+.block{border-radius:19px}
+.btn.filled{background:var(--primary);color:var(--on-primary)}
+@media(max-width:680px){.logo-text{font-size:15px}.topbar{gap:8px;padding:12px}.nothing-mark{width:22px;height:22px}.sheet h2{font-size:24px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+.btn.outlined{border:1px solid var(--outline-variant)}
+.paper{background:var(--surface)!important;border-color:var(--outline-variant)!important}
